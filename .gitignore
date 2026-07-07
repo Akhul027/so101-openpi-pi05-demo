@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Logs and runtime outputs
+*.log
+*.pid
+outputs/
+runs/
+checkpoints/
+wandb/
+latest_*.jpg
+camera_*.jpg
+camera_scan*/
+demo*_*.log
+
+# Large model / dataset artifacts
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.mp4
+*.avi
+*.mkv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Secrets
+*_TOKEN*
+*_PASSWORD*
+credentials.json
